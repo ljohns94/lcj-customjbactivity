@@ -17,7 +17,7 @@
             "inArguments": [
                 {
                   "email": "{{Contact.Default.EmailAddress}}",
-                  "to": "{{Contact.Attribute.TwilioV1.TwilioNumber}}" 
+                  "to": "{{Contact.Attribute.Twilio_v1.TwilioNumber}}" 
                 }               
             ],
             "outArguments": [],
@@ -30,7 +30,7 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "e962d1d4-8b07-4e76-89be-ecd1f1423b6d",
+      "applicationExtensionKey": "f2ff0571-b84f-4e8f-a6d6-ea6b24b85542",
        "save": {
            "url": "https://lcj-customjbactivity.herokuapp.com/save",
             "verb": "POST",
